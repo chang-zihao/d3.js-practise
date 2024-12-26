@@ -1,17 +1,19 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import chart1 from "./components/chart1.vue";
+// import chart2 from "./components/chart2.vue";
+import chart3 from "./components/chart3.vue";
+import forceGraph from "./components/force-graph.vue";
+import forceGraph2 from "./components/force-graph2.vue";
+import scatterPlot from "./components/scatterplot-matrx/scatterplot.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <chart1 />
+  <!-- <chart2 /> -->
+  <force-graph />
+  <forceGraph2 />
+  <chart3 />
+  <scatter-plot />
 </template>
 
 <style scoped>
